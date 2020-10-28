@@ -12,7 +12,7 @@ st.title("Compressed Air Consumption")
 
 #subheader on sidebar
 
-st.subheader("Change following slider values to see updated results in the last slider at the bottom")
+st.subheader("Change slider values to see updated results at the bottom")
 
 #To create sliders on sidebar
 
@@ -27,7 +27,6 @@ e = int(6.10295 -(0.0169465 * a)+(0.0158989 * b)-(0.000147579 * c)+(0.0228664 * 
 #To show results on the main page, under the heading
 st.subheader("The Estimated Compressed Air Consumption on Airjet Loom") 
 st.write(':', e, 'Litres per second')
-st.slider('', 0, 35, e)
 
 
 # Images
