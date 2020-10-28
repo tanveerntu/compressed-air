@@ -35,7 +35,7 @@ img = Image.open("airjetloom.jpg")
 st.image(img, width=600, caption="")
 
 
-
+st.write("Courtsey:Shakeel Ahmed /NTU")
 
 
 
